@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { MaterialModule } from './material/material.module';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { MatSidenavModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,9 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    MatSidenavModule
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
