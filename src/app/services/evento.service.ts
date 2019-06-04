@@ -35,8 +35,8 @@ export class EventoService {
       },
       {
         'eventCode': 'kljashf878583475kkh', 
-        'eventName':, 'AWS', 
-        'oficineCode': 3, 'AWS', 
+        'eventName': 'AWS', 
+        'oficineCode': 3,
         'oficineName': 'AWS', 
         'oficineLocal': 'Laboratório 5',
         'instructorName': 'Rodrigo W. Mendes',
